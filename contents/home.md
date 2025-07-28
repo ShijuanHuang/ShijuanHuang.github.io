@@ -13,5 +13,5 @@ Email: shijuan_huang@hust.edu.cn
 2018.09 – 2022.06, B.E. in Bioinformatics, Huazhong University of Science and Technology (HUST), Wuhan, China.
 
 #### Research Interests
-Deep Learning, Person re-identification.
+Deep Learning, Person Re-identification.
 
