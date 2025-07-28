@@ -1,6 +1,6 @@
 
 
-[![Shijuan Huang](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/ShijuanHuang/)
+[![Shijuan Huang](https://github.com/ShijuanHuang/ShijuanHuang.github.io/blob/main/pictures/ShijuanHuang-github-blue.svg)](https://github.com/ShijuanHuang/)
 
 A Ph.D. Candidate (2nd year student, 2023.09-2027.06) in the School of Computer Science and Technology at Huazhong University of Science and Technology (HUST), advised by Prof. Hefei Ling.
 
