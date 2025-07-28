@@ -1,0 +1,39 @@
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+title: Shijuan Hunag
+description: Personal Website
+
+# 作者配置
+author:
+  name: Shijuan Hunag
+  avatar: /pictures/hsj.jpg  # 头像路径
+  bio: Ph.D. Candidate at HUST
+  location: Wuhan, China
+  email: shijuan_huang@example.com
+  links:
+    - label: "Google Scholar"
+      icon: "ai-google-scholar"
+      url: "https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=zeV6mZ8AAAAJ/"
+      url: "https://github.com/ShijuanHuang/"
+    - label: "Semantic Scholar"
+      icon: "ai-semantic-scholar"
+      url: "https://www.semanticscholar.org/author/Shijuan-Huang/2304003873/"
+    - label: "ORCID"
+      icon: "ai-orcid"
+      url: "https://orcid.org/0009-0000-2177-5110/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+
+# 侧边栏配置
+sidebar:
+  - title: "About Me"
+    text: "Ph.D. Candidate (2023.09-2027.06)"
+    image: /pictures/hsj.jpg  # 头像路径
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true  # 启用作者简介侧边栏
