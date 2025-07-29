@@ -4,7 +4,7 @@
 
 - 2024.05 <strong>Outstanding Communist Youth League Cadre</strong> (优秀共青团干部), HUST.
 
-- 2024.03 <strong>Dameng Scholarship</strong> (达梦奖学金), School of Computer Sci. & Tech., HUST.
+- 2024.03 <strong>Dameng Scholarship</strong> (达梦奖学金), School of Computer Science & Technology, HUST.
 
 - 2024.01 <strong>Proactive Achievement Award</strong> (积极进取奖), Laboratory of Visual Computing and Intelligent Cognition, HUST.
 
