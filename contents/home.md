@@ -2,7 +2,7 @@
 
 [![Shijuan Huang](https://img.shields.io/badge/ShijuanHuang-github-blue?logo=github)](https://github.com/ShijuanHuang/)
 
-A Ph.D. Candidate (2nd year student, 2023.09-2027.06) in the School of Computer Science and Technology at Huazhong University of Science and Technology (HUST), advised by Prof. Hefei Ling.
+A Ph.D. Candidate (2nd year student, 2023.09-2027.06) in the School of Computer Science and Technology at Huazhong University of Science and Technology (HUST), advised by [Prof. Hefei Ling](https://faculty.hust.edu.cn/linghefei/zh_CN/index.htm).
 
 #### Contact
 
