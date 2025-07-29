@@ -38,7 +38,7 @@
 
 ---
 
-## ❤️ 💼 Brief Introduction
+## ⭐ Brief Introduction
 
 Shijuan Huang (Chinese: 黄士娟), a Ph.D. Candidate (2nd year student, 2023.09-2027.06) in the School of Computer Science and Technology at Huazhong University of Science and Technology (HUST), advised by Prof. Hefei Ling. I am passionate about **Deep Learning, Person Re-identification**.
 
