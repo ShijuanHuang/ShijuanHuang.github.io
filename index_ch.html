@@ -206,6 +206,98 @@
         </div>
     </footer>
 
+<!-- 在</body>标签之前添加以下代码 -->
+<script>
+// 配置中文Markdown文件路径
+const chineseContentConfig = {
+    'home': 'contents/home_ch.md',
+    'publications': 'contents/publications_ch.md',
+    'competitions': 'contents/competitions_ch.md',
+    'awards_ch': 'contents/awards_ch.md',
+    'patents': 'contents/patents_ch.md'
+};
+
+// 页面加载完成后执行
+document.addEventListener('DOMContentLoaded', function() {
+    // 设置页面标题和导航栏中文文本
+    document.title = "黄世娟 - 个人主页";
+    document.getElementById('title').textContent = "黄世娟 - 个人主页";
+    document.getElementById('page-top-title').textContent = "黄世娟";
+    document.getElementById('top-section-bg-text').textContent = "黄世娟的个人主页";
+    document.getElementById('home-subtitle').innerHTML = '<i class="bi bi-house-fill"></i>&nbsp;首页';
+    
+    // 加载各部分的Markdown内容
+    loadChineseContent();
+});
+
+// 加载中文内容函数
+function loadChineseContent() {
+    // 加载首页内容
+    fetch(chineseContentConfig.home)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`无法加载首页内容: ${response.status}`);
+            }
+            return response.text();
+        })
+        .then(text => {
+            document.getElementById('home-md').innerHTML = marked.parse(text);
+        })
+        .catch(error => {
+            console.error('加载首页内容失败:', error);
+            document.getElementById('home-md').innerHTML = '<p>首页内容加载中...</p>';
+        });
+
+    // 加载论文内容
+    fetch(chineseContentConfig.publications)
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('publications-md').innerHTML = marked.parse(text);
+        })
+        .catch(error => {
+            console.error('加载论文内容失败:', error);
+            document.getElementById('publications-md').innerHTML = '<p>论文内容加载中...</p>';
+        });
+
+    // 加载学科竞赛内容
+    fetch(chineseContentConfig.competitions)
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('competitions-md').innerHTML = marked.parse(text);
+        })
+        .catch(error => {
+            console.error('加载学科竞赛内容失败:', error);
+            document.getElementById('competitions-md').innerHTML = '<p>学科竞赛内容加载中...</p>';
+        });
+
+    // 加载荣誉称号内容
+    fetch(chineseContentConfig.awards_ch)
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('awards_ch-md').innerHTML = marked.parse(text);
+        })
+        .catch(error => {
+            console.error('加载荣誉称号内容失败:', error);
+            document.getElementById('awards_ch-md').innerHTML = '<p>荣誉称号内容加载中...</p>';
+        });
+
+    // 加载专利内容
+    fetch(chineseContentConfig.patents)
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('patents-md').innerHTML = marked.parse(text);
+        })
+        .catch(error => {
+            console.error('加载专利内容失败:', error);
+            document.getElementById('patents-md').innerHTML = '<p>专利内容加载中...</p>';
+        });
+}
+
+// 设置底部版权信息
+document.getElementById('copyright-text').textContent = 'Copyright © 2024 黄世娟 - 保留所有权利';
+document.getElementById('github-link').textContent = 'GitHub';
+document.getElementById('license-link').textContent = '许可证';
+</script>
 
 </body>
 
