@@ -3,5 +3,5 @@
 
 
 
-#### Pending Patents
-- Hefei Ling, <strong>Shijuan Huang</strong>, Ping Li, Zongyi Li. A Text-Based Person Retrieval Model Construction Method and Person Retrieval Method​ (pending, application No. 202510210952.4), 2025.
+#### 已申请专利
+- 凌贺飞，黄士娟，李平，李综艺。一种基于文本的图像行人检索模型的构建方法及图像行人检索方法​（申请号：202510210952.4）, 2025。
