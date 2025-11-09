@@ -206,6 +206,30 @@
         </div>
     </footer>
 
+<!-- Override markdown loading for Chinese version -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const mdFiles = {
+        'home-md': 'home_ch.md',
+        'publications-md': 'publications_ch.md',
+        'competitions-md': 'competitions_ch.md',
+        'awards_ch-md': 'awards_ch.md',     // 注意 ID 和文件名对应
+        'patents-md': 'patents_ch.md'
+    };
+
+    Object.entries(mdFiles).forEach(([id, file]) => {
+        fetch(`contents/${file}`)
+            .then(response => response.text())
+            .then(text => {
+                if (document.getElementById(id)) {
+                    document.getElementById(id).innerHTML = marked.parse(text);
+                }
+            })
+            .catch(err => console.error(`Failed to load ${file}`, err));
+    });
+});
+</script>
+
 </body>
 
 </html>
