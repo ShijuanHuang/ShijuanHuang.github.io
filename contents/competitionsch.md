@@ -1,11 +1,17 @@
-- 2024.09-2024.12 The National Finals of the Sixth Global Campus Artificial Intelligence Algorithm Elite Competition (2024)​, UAV-Based Human Action Recognition​​. <strong>National Third Prize & Provincial First Prize</strong>.
+- 2024.09-2024.12 2024年第六届全球校园人工智能算法精英大赛全国总决赛，【算法挑战赛】基丁无人机的人体行为识别，**三等奖**。
 
-- 2023.10-2023.12 The National Finals of the Fifth Global Campus Artificial Intelligence Algorithm Elite Competition (2023)​, Referring Expression Comprehension Task under Zero-Shot Setting​. <strong>National First Prize & Provincial First Prize</strong>.
+- 2024.09-2024.12 2024年第六届全球校园人工智能算法精英大赛（湖北赛区）省级选拔赛，【算法挑战赛】基丁无人机的人体行为识别，**一等奖**。
 
-- 2023.10-2023.12 The National Finals of the Fifth Global Campus Artificial Intelligence Algorithm Elite Competition (2023)​ (​​Algorithm Specialized Competition​), Image Prompt Optimization Special Competition for Stable Diffusion. <strong>National Third Prize & Provincial Second Prize</strong>.
+- 2023.10-2023.12 2023年第五届全球校园人工智能算法精英大赛全国总决赛，零样本下的指代表达理解任务，**一等奖**。
 
-- 2023.08-2023.10 2023iFLYTEK A.I. Multi-Label Image Retrieval Challenge. <strong>Second Place</strong>.
+- 2023.10-2023.12 2023年第五届全球校园人工智能算法精英大赛精英Ⅱ赛区选拔赛·省级，零样本下的指代表达理解任务，**一等奖**。
 
-- 2023.08-2023.10 2023iFLYTEK A.I. Stable Diffusion Prompt Generation Competition. <strong>Fourth Place</strong>.
+- 2023.10-2023.12 2023年第五届全球校园人工智能算法精英大赛全国总决赛，算法专项赛（算能杯——面向Stable Diffusion的图像提示语优化专项赛），**三等奖**。
 
-- 2022.06.18-2022.06.22 CVPR 2023 Workshop on Foundation models, Track2: Cross-Modal Image Retrieval Track. <strong>Top 10 Award</strong>.
+- 2023.10-2023.12 2023年第五届全球校园人工智能算法精英大赛（算法专项赛）省级选拔赛，算法专项赛（算能杯——面向Stable Diffusion的图像提示语优化专项赛），**二等奖**。
+
+- 2023.08-2023.10 2023iFLYTEK A.I.开发者大赛，多标签图像检索挑战赛决赛，**第2名**。
+
+- 2023.08-2023.10 2023iFLYTEK A.I.开发者大赛，Stable Diffusion 文案生成器决赛，**第4名**。
+
+- 2022.06.18-2022.06.22 CVPR 2023 基础模型研讨会，赛道二：跨模态图像检索赛道，**第8名**。
