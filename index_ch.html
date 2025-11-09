@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="学术主页" />
     <meta name="author" content="Shijuan Huang" />
-    <title id="title"></title>
+    <title id="title">黄士娟 - 个人主页</title>
 
     <!-- Icon -->
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
@@ -28,6 +28,17 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
+
+    <!-- 在加载任何脚本之前设置中文配置路径 -->
+    <script>
+        // 在页面加载前设置中文配置路径
+        window.CONFIG_PATH = 'contents/configch.yml';
+        window.HOME_MD_PATH = 'contents/homech.md';
+        window.PUBLICATIONS_MD_PATH = 'contents/publicationsch.md';
+        window.COMPETITIONS_MD_PATH = 'contents/competitionsch.md';
+        window.AWARDS_MD_PATH = 'contents/awardsch.md';
+        window.PATENTS_MD_PATH = 'contents/patentsch.md';
+    </script>
 
     <!-- Bootstrap core JS-->
     <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
@@ -76,25 +87,6 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
-    <!-- 中文配置加载脚本 -->
-    <script>
-        // 重写配置加载路径，使用中文配置文件
-        document.addEventListener('DOMContentLoaded', function() {
-            // 修改配置加载路径
-            window.CONFIG_PATH = 'contents/configch.yml';
-            window.HOME_MD_PATH = 'contents/homech.md';
-            window.PUBLICATIONS_MD_PATH = 'contents/publicationsch.md';
-            window.COMPETITIONS_MD_PATH = 'contents/competitionsch.md';
-            window.AWARDS_MD_PATH = 'contents/awardsch.md';
-            window.PATENTS_MD_PATH = 'contents/patentsch.md';
-            
-            // 设置页面语言
-            document.documentElement.lang = 'zh-CN';
-            
-            // 修改页面标题
-            document.title = "黄世娟 - 个人主页";
-        });
-    </script>
 
 </head>
 
@@ -128,7 +120,7 @@
                     </li>
                     <!-- 新增：语言切换 -->
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="index_ch.html">English</a>
+                        <a class="nav-link me-lg-3" href="index.html">English</a>
                     </li>
 
                 </ul>
@@ -227,37 +219,38 @@
         </div>
     </footer>
 
-    <!-- 中文配置加载覆盖脚本 -->
+    <!-- 备用方案：如果动态加载失败，手动加载中文内容 -->
     <script>
-        // 确保在原有脚本执行前设置中文配置路径
-        (function() {
-            // 保存原始配置路径
-            const originalConfigPath = window.CONFIG_PATH;
-            const originalHomePath = window.HOME_MD_PATH;
-            const originalPublicationsPath = window.PUBLICATIONS_MD_PATH;
-            const originalCompetitionsPath = window.COMPETITIONS_MD_PATH;
-            const originalAwardsPath = window.AWARDS_MD_PATH;
-            const originalPatentsPath = window.PATENTS_MD_PATH;
-            
-            window.CONFIG_PATH = 'contents/configch.yml';
-            window.HOME_MD_PATH = 'contents/homech.md';
-            window.PUBLICATIONS_MD_PATH = 'contents/publicationsch.md';
-            window.COMPETITIONS_MD_PATH = 'contents/competitionsch.md';
-            window.AWARDS_MD_PATH = 'contents/awardsch.md';
-            window.PATENTS_MD_PATH = 'contents/patentsch.md';
-            
-            if (typeof loadConfig === 'function') {
-                setTimeout(() => {
+        // 检查内容是否已加载，如果未加载，则显示备用内容
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                // 检查各个部分是否已加载内容
+                const sections = ['home', 'publications', 'competitions', 'awards', 'patents'];
+                
+                sections.forEach(section => {
+                    const element = document.getElementById(section + '-md');
+                    if (element && (element.innerHTML === '' || element.textContent.trim() === '')) {
+                        // 显示备用内容
+                        const fallback = document.getElementById(section + '-content-fallback');
+                        if (fallback) {
+                            fallback.style.display = 'block';
+                        } else {
+                            element.innerHTML = '<p>内容加载中...</p>';
+                        }
+                    }
+                });
+            }, 2000); // 等待2秒后检查
+        });
+
+        // 强制重新加载配置
+        if (typeof loadConfig === 'function') {
+            window.addEventListener('load', function() {
+                setTimeout(function() {
                     loadConfig();
                 }, 100);
-            }
-        })();
+            });
+        }
     </script>
-
-</body>
-
-</html>
-
 
 </body>
 
