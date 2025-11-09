@@ -10,11 +10,11 @@
 
 - 2024.05 <strong>优秀共青团干部</strong>， 华中科技大学
 
-- 2024.03 <strong>达梦奖学金</strong>，视觉计算与智能认知实验室， 华中科技大学
+- 2024.03 <strong>达梦奖学金</strong>，计算机科学与技术学院， 华中科技大学
 
-- 2024.01 <strong>积极进取奖</strong>， Laboratory of Visual Computing and Intelligent Cognition， 华中科技大学
+- 2024.01 <strong>积极进取奖</strong>， 视觉计算与智能认知实验室， 华中科技大学
 
-- 2024.01 <strong>科技创新二等奖</strong>， Laboratory of Visual Computing and Intelligent Cognition， 华中科技大学
+- 2024.01 <strong>科技创新二等奖</strong>， 视觉计算与智能认知实验室， 华中科技大学
 
 - 2023.12 <strong>优秀研究生干部</strong>， 华中科技大学
 
