@@ -9,7 +9,7 @@
       </li>
       <li>
         <img src="https://api.iconify.design/mdi:school.svg?color=%23202124" alt="University" width="16" height="16">
-        Huazhong University of Sci. & Tech.
+        Huazhong University of Science and Technology
       </li>
       <li>
         <img src="https://api.iconify.design/mdi:email.svg?color=%23202124" alt="Email" width="16" height="16">
@@ -46,6 +46,7 @@ Shijuan Huang (Chinese: 黄士娟), a Ph.D. Candidate (2nd year student, 2023.09
 
 ## 🔥 News
 
+- **2025.11**: 🏆 One paper was accepted by **AAAI'26 (Conference CCF A)**!
 - **2025.07**: 🏆 One paper was accepted by **ECAI'25 (Conference CCF B)**!
 - **2025.06**: 🏆 One paper was accepted by **ACM Trans. Multimedia Comput. Commun. Appl. (Journal, CCF B)**!
 - **2025.06**: 🏆 One paper was accepted by **IEEE Trans. Biom. Behav. Identity Sci.**!
