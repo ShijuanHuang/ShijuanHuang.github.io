@@ -1,4 +1,4 @@
-- 2025.11 <strong>National Scholarship</strong> (国家学金).
+- 2025.11 <strong>National Scholarship</strong> (国家奖学金).
 
 - 2025.11 <strong>Scholarship for Technology Innovation</strong> (科技创新奖学金), HUST.
 
