@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="黄世娟的个人主页 - 学术研究" />
-    <meta name="author" content="黄世娟" />
-    <title>黄世娟 - 个人主页</title>
+    <meta name="description" content="Academic Webpage" />
+    <meta name="author" content="Shijuan Huang" />
+    <title id="title"></title>
 
     <!-- Icon -->
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
@@ -71,17 +71,21 @@
     <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
+    <!-- Core JS-->
+    <script type="text/javascript" src="static/js/scripts.js"></script>
+    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
+
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">黄世娟</a>
+            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
             <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                菜单
+                MENU
                 <i class="bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -99,12 +103,13 @@
                         <a class="nav-link me-lg-3" href="#awards_ch">荣誉称号</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#patents">专利</a>
+                        <a class="nav-link me-lg-3" href="#专利"></a>
                     </li>
-                    <!-- 语言切换 -->
+                    <!-- 新增：语言切换 -->
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="index.html">English</a>
                     </li>
+
                 </ul>
             </div>
         </div>
@@ -114,7 +119,7 @@
     <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
         <div class="top-section-content">
             <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt">黄世娟的个人主页</h2>
+                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
             </div>
         </div>
     </section>
@@ -132,11 +137,10 @@
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
             <header>
-                <h2 id="home-subtitle"><i class="bi bi-house-fill"></i>&nbsp;首页</h2>
+                <h2 id="home-subtitle"> </h2>
+                <!-- <span class="bi bi-list"></span> -->
             </header>
-            <div class="main-body" id="home-md">
-                <p>首页内容加载中...</p>
-            </div>
+            <div class="main-body" id="home-md"></div>
         </div>
     </section>
     <!-- Home -->
@@ -147,9 +151,8 @@
             <header>
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;论文</h2>
             </header>
-            <div class="main-body" id="publications-md">
-                <p>论文内容加载中...</p>
-            </div>
+            <div class="main-body" id="publications-md"></div>
+
         </div>
     </section>
     <!-- Publications  -->
@@ -158,24 +161,22 @@
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="competitions">
         <div class="container px-5">
             <header>
-                <h2 id="competitions-subtitle"><i class="bi bi-trophy-fill"></i>&nbsp;学科竞赛</h2>
+                <h2 id="competitions-subtitle"><i class="bi bi-trophy-fill"></i>学科竞赛 </h2>
             </header>
-            <div class="main-body" id="competitions-md">
-                <p>学科竞赛内容加载中...</p>
-            </div>
+            <div class="main-body" id="competitions-md"></div>
+
         </div>
     </section>
     <!-- Competitions  -->
 
     <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="awards_ch">
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="awards">
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;荣誉称号</h2>
+                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>荣誉称号 </h2>
             </header>
-            <div class="main-body" id="awards_ch-md">
-                <p>荣誉称号内容加载中...</p>
-            </div>
+            <div class="main-body" id="awards-md"></div>
+
         </div>
     </section>
     <!-- Awards -->
@@ -184,101 +185,28 @@
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="patents">
         <div class="container px-5">
             <header>
-                <h2 id="patents-subtitle"><i class="bi bi-lightbulb-fill"></i>&nbsp;专利</h2>
+                <h2 id="patents-subtitle"><i class="bi bi-lightbulb-fill"></i>专利 </h2>
             </header>
-            <div class="main-body" id="patents-md">
-                <p>专利内容加载中...</p>
-            </div>
+            <div class="main-body" id="patents-md"></div>
+
         </div>
     </section>
     <!-- Patents -->
+
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
             <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2">Copyright © 2024 黄世娟 - 保留所有权利</div>
-                <a id="github-link" href="https://github.com/ShijuanHuang">GitHub</a>
+                <div id="copyright-text" class="mb-2"></div>
+                <a id="github-link" href="https://github.com/ShijuanHuang">Github</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/ShijuanHuang/ShijuanHuang.github.io/blob/main/LICENSE">许可证</a>
+                <a id="license-link" href="https://github.com/ShijuanHuang/ShijuanHuang.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>
 
-    <!-- 中文内容加载脚本 -->
-    <script>
-    // 配置中文Markdown文件路径
-    const chineseContentConfig = {
-        'home': 'contents/home_ch.md',
-        'publications': 'contents/publications_ch.md', 
-        'competitions': 'contents/competitions_ch.md',
-        'awards_ch': 'contents/awards_ch.md',
-        'patents': 'contents/patents_ch.md'
-    };
-
-    // 页面加载完成后执行
-    document.addEventListener('DOMContentLoaded', function() {
-        console.log('开始加载中文页面内容...');
-        loadChineseContent();
-    });
-
-    // 加载中文内容函数
-    function loadChineseContent() {
-        // 加载首页内容
-        loadMarkdownContent('home', 'home-md');
-        
-        // 加载论文内容
-        loadMarkdownContent('publications', 'publications-md');
-        
-        // 加载学科竞赛内容
-        loadMarkdownContent('competitions', 'competitions-md');
-        
-        // 加载荣誉称号内容
-        loadMarkdownContent('awards_ch', 'awards_ch-md');
-        
-        // 加载专利内容
-        loadMarkdownContent('patents', 'patents-md');
-    }
-
-    // 通用的Markdown内容加载函数
-    function loadMarkdownContent(section, elementId) {
-        const filePath = chineseContentConfig[section];
-        if (!filePath) {
-            console.error(`未找到 ${section} 的配置文件路径`);
-            return;
-        }
-        
-        console.log(`正在加载: ${filePath}`);
-        
-        fetch(filePath)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP错误! 状态: ${response.status}`);
-                }
-                return response.text();
-            })
-            .then(text => {
-                const element = document.getElementById(elementId);
-                if (element) {
-                    element.innerHTML = marked.parse(text);
-                    console.log(`成功加载: ${filePath}`);
-                } else {
-                    console.error(`未找到元素: ${elementId}`);
-                }
-            })
-            .catch(error => {
-                console.error(`加载 ${filePath} 失败:`, error);
-                const element = document.getElementById(elementId);
-                if (element) {
-                    element.innerHTML = `<div class="alert alert-warning" role="alert">
-                        <strong>内容加载失败</strong><br>
-                        无法加载 ${section} 内容，请检查文件路径或网络连接。<br>
-                        错误信息: ${error.message}
-                    </div>`;
-                }
-            });
-    }
-    </script>
 
 </body>
+
 </html>
