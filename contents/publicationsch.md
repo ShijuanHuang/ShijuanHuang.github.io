@@ -7,9 +7,9 @@
 #### 会议论文
 1. <strong>S. Huang</strong>, H. Ling*, Z. Li, X. Li and Z. Lv, "Dual-stream Relation-modeling Disentanglement for Cloth-Changing Person Re-Identification," in *Proceeding of the Fortieth Association for the Advancement of Artificial Intelligence (<strong>AAAI '26</strong>)*, accept.
 
-2. <strong>S. Huang</strong>, H. Ling*, "Multi-Branch Clothes-Agnostic Feature Learning for Cloth-Changing Person Re-identification," in *Proceeding of the 28th European Conference on Artificial Intelligence (<strong>ECAI '25</strong>)*, accept.
+2. <strong>S. Huang</strong>, H. Ling*, "Multi-Branch Clothes-Agnostic Feature Learning for Cloth-Changing Person Re-identification," in *Proceeding of the 28th European Conference on Artificial Intelligence (<strong>ECAI '25</strong>)*. [[文章]](https://doi.org/10.3233/faia250870)
 
-3. <strong>S. Huang</strong>, H. Ling*, "Seeing Through Changes: Clothing Information Suppression and Momentum Enhancement for Cloth-Changing Person Re-Identification," in *Proceeding of the INNS International Joint Conference on Neural Networks (<strong>IJCNN '25</strong>)*, accept.
+3. <strong>S. Huang</strong>, H. Ling*, "Seeing Through Changes: Clothing Information Suppression and Momentum Enhancement for Cloth-Changing Person Re-Identification," in *Proceeding of the INNS International Joint Conference on Neural Networks (<strong>IJCNN '25</strong>)*. [[文章]](https://ieeexplore.ieee.org/document/11227445)
 
 4. L. Tu, L. Meng, Z. Li, H. Ling* and <strong>S. Huang</strong>, "Autoregressive Motion Generation with Gaussian Mixture-Guided Latent Sampling," in *Proceeding of the Thirty-Ninth Annual Conference on Neural Information Processing Systems (<strong>NeurIPS '25</strong>)*, accept.
 
