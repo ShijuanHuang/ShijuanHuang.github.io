@@ -6,7 +6,7 @@
 
 - <strong>S. Huang</strong>, H. Ling*, Z. Li, X. Li and Z. Lv, "Dual-stream Relation-modeling Disentanglement for Cloth-Changing Person Re-Identification," in *Proceeding of the Fortieth Association for the Advancement of Artificial Intelligence (<strong>AAAI '26</strong>)*, accept.
 
-- <strong>S. Huang</strong>, H. Ling*, "Multi-Branch Clothes-Agnostic Feature Learning for Cloth-Changing Person Re-identification," in *Proceeding of the 28th European Conference on Artificial Intelligence (<strong>ECAI '25</strong>)*, accept.
+- <strong>S. Huang</strong>, H. Ling*, "Multi-Branch Clothes-Agnostic Feature Learning for Cloth-Changing Person Re-identification," in *Proceeding of the 28th European Conference on Artificial Intelligence (<strong>ECAI '25</strong>)*. [[Paper]](https://doi.org/10.3233/faia250870)
 
 - <strong>S. Huang</strong>, Z. Li*, H. Ling* and J. Li, "Cross-Modality Relation and Uncertainty Exploration for Text-Based Person Search," in *ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ACM TOMM</strong>)*, 2025. [[Paper]](https://dl.acm.org/doi/10.1145/3747185)
 
