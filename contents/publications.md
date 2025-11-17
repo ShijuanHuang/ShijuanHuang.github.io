@@ -12,7 +12,7 @@
 
 - <strong>S. Huang</strong>, Z. Li, H. Ling*, X. Li and L. Tu, "FRNS: A Dual-Strategy Framework for Fine-Grained Feature Refinement and Text Noise Suppression in Text-Based Person Retrieval," in *IEEE Transactions on Biometrics, Behavior, and Identity Science (<strong>IEEE T-BIOM</strong>)*, 2025. [[Paper]](https://ieeexplore.ieee.org/document/11048583)
 
-- <strong>S. Huang</strong>, H. Ling*, "Seeing Through Changes: Clothing Information Suppression and Momentum Enhancement for Cloth-Changing Person Re-Identification," in *Proceeding of the INNS International Joint Conference on Neural Networks (<strong>IJCNN '25</strong>)*, accept.
+- <strong>S. Huang</strong>, H. Ling*, "Seeing Through Changes: Clothing Information Suppression and Momentum Enhancement for Cloth-Changing Person Re-Identification," in *Proceeding of the INNS International Joint Conference on Neural Networks (<strong>IJCNN '25</strong>)*. [[Paper]](https://ieeexplore.ieee.org/document/11227445)
 
 - L. Tu, L. Meng, Z. Li, H. Ling* and <strong>S. Huang</strong>, "Autoregressive Motion Generation with Gaussian Mixture-Guided Latent Sampling," in *Proceeding of the Thirty-Ninth Annual Conference on Neural Information Processing Systems (<strong>NeurIPS '25</strong>)*, accept.
 
